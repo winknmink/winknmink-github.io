@@ -1,2 +1,2 @@
-# winknmink
-de ippo sheriyaakkitharaam..!!!!
+# winknmink.github.io
+wink n mink wesite front-end
