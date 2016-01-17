@@ -8,122 +8,274 @@
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 	<title>Wink N Mink</title>
 </head>
 
 <body>
-<!-- nav bar-->
-	<div id="logo">
+	<div id="bgcarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+
+		<ol class="carousel-indicators">
+      		<li data-target="#bgcarousel" data-slide-to="0" class="active"></li>
+      		<li data-target="#bgcarousel" data-slide-to="1"></li>
+      		<li data-target="#bgcarousel" data-slide-to="2"></li>
+      		<li data-target="#bgcarousel" data-slide-to="3"></li>
+    	</ol>
+
+
+    	<div class="carousel-inner" role="listbox">
+      		<div class="item active" id="bg1">
+      		</div>
+
+      		<div class="item" id="bg2">
+      		</div>
+
+      		<div class="item" id="bg3">
+      		</div>
+
+      		<div class="item" id="bg4">
+      		</div>
+      </div>
+
+
+      	<a class="left carousel-control" href="#bgcarousel" role="button" data-slide="prev">
+      		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
+      		</span>
+      		<span class="sr-only">Previous
+      		</span>
+    	</a>
+    	<a class="right carousel-control" href="#bgcarousel" role="button" data-slide="next">
+      		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true">
+      		</span>
+      		<span class="sr-only">Next
+      		</span>
+    	</a>
 	</div>
 
-	<div id="login">
-		<span class="glyphicon glyphicon-log-in">
-		</span>
-	</div>
 
-	<div id="register">
-		<span class="glyphicon glyphicon-user">
-		</span>
-	</div>
 
-	<div id="home" class="activemenu">
-		<span class="glyphicon glyphicon-home">
-		</span>
-	</div>
 
-	<div id="features">
-		<span class="glyphicon glyphicon-th-large">
-		</span>
-	</div>
 
-	<div id="testimonials">
-		<span class="glyphicon glyphicon-pencil">
-		</span>
-	</div>
 
-	<div id="contact">
-		<span class="glyphicon glyphicon-phone">
-		</span>
-	</div>
-<!-- /nav bar-->
 
-<!-- background image-->
-	<div id="backgroundimage">
-		<div id="backgroundoverlay">
-		</div>
-	</div>
-<!-- /background image-->
+  <div id="aboutpage">
+    <div class="jumbotron">
+      <strong>About
+      </strong>
+      <p>Wink n Mink is the coolest way to get your dream wear in 4 simple steps.
+      </p>
+    </div>
+    <div class="container">
+      <div class="row" id="aboutrow">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="alert alert-danger">
+            <strong>SignUp!
+            </strong>
+            <p>SignUp with Facebook or Google.<br><br>
+            </p>
+          </div>
+          <div>
+            <img src="images/dummy250350.png" class="img-circle">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="alert alert-warning">
+            <strong>Book an Appointment!
+            </strong>
+            <p>Select a Designer Nearby and Book an Appointment.
+            </p>
+          </div>
+          <div>
+            <img src="images/dummy250350.png" class="img-circle">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="alert alert-info">
+            <strong>Get your Design!
+            </strong>
+            <p>Collect the Design from the Designer.
+            </p>
+          </div>
+          <div>
+            <img src="images/dummy250350.png" class="img-circle">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="alert alert-success">
+            <strong>Stitch and Wear!
+            </strong>
+            <p>Get your Design stitched.<br><br>
+            </p>
+          </div>
+          <div>
+            <img src="images/dummy250350.png" class="img-circle">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<!-- home page-->
-	<div id="homepage">
-		<div id="homepageslideshow">
-		</div>
-		<div id="getstartedbutton">
-			<h>
-			&nbsp;
-				<span class="glyphicon glyphicon-off">
-				</span>
-			Get Started
-			&nbsp;
-			</h>
-		</div>
-	</div>
-<!-- /home page-->
 
-<!-- features page-->
-	<div id="featurespage">
-	</div>
-<!-- /features page-->
 
-<!-- testimonials page-->
-	<div id="testimonialspage">
-	</div>
-<!-- /testimonials page-->
+  <div id="testimonialspage">
+    <div class="jumbotron">
+      <strong>Testimonials
+      </strong>
+      <p>Hear from our Clients.
+      </p>
+    </div>
 
-<!-- contacts page-->
-	<div id="contactspage">
-		<div id="leftpane">
-			<p>
-				<span id="addressicon" class="glyphicon glyphicon-send">
-				</span><br>
-				123A,<br>
-				Molestie Lorem Avenue,<br>
-				Aliquam<br>
-				AAA0010<br>
-				<br>
-				<span id="phoneicon" class="glyphicon glyphicon-earphone">
-				</span><br>
-				+1234567890<br>
-				<br>
-				<span id="mailicon" class="glyphicon glyphicon-envelope">
-				</span><br>
-				abcd@jjj.nn<br>
-				<br>
-				<img id="facebooklogo" src="images/facebooklogo.png">
-			</p>
-		</div>
-		<div id="rightpane">
-			<p>
-				<span id="dropamessageicon" class="glyphicon glyphicon-comment">
-				</span>
-			</p>
-			<form>
-				<input id="name" type="text" placeholder="Name">
-				</input>
-				<input id="email" type="text" placeholder="Email">
-				</input>
-				<input id="phone" type="text" placeholder="Phone">
-				</input>
-				<textarea id="message" type="text" placeholder="Message..." >
-				</textarea>
-			</form>
-		</div>
-	</div>
-<!-- /contacts page-->
+    <div id="ttmonialscarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="container">
+              <div class="col-md-offset-3 col-md-6">
+                <h3>"kkggd gggjjd ggfggd ggd  bdghd gdh dghdkdhhdjhd dhdjhd"
+                </h3>
+                <div class="pull-right">
+                  <img class="img-circle" src="images/dummy7070.png">
+                </div>
+                <h4 class="pull-right"><strong>First Last Name&nbsp;&nbsp;</strong></h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="container">
+              <div class="col-md-offset-3 col-md-6">
+                <h3>"kkggd gggjjd ggfggd ggd  bdghd gdh dghdkdhhdjhd dhdjhd"
+                </h3>
+                <div class="pull-right">
+                  <img class="img-circle" src="images/dummy7070.png">
+                </div>
+                <h4 class="pull-right"><strong>First Last Name&nbsp;&nbsp;</strong></h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="container">
+              <div class="col-md-offset-3 col-md-6">
+                <h3>"kkggd gggjjd ggfggd ggd  bdghd gdh dghdkdhhdjhd dhdjhd"
+                </h3>
+                <div class="pull-right">
+                  <img class="img-circle" src="images/dummy7070.png">
+                </div>
+                <h4 class="pull-right"><strong>First Last Name&nbsp;&nbsp;</strong></h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="container">
+              <div class="col-md-offset-3 col-md-6">
+                <h3>"kkggd gggjjd ggfggd ggd  bdghd gdh dghdkdhhdjhd dhdjhd"
+                </h3>
+                <div class="pull-right">
+                  <img class="img-circle" src="images/dummy7070.png">
+                </div>
+                <h4 class="pull-right"><strong>First Last Name&nbsp;&nbsp;</strong></h4>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="contactspage">
+    <div class="jumbotron">
+      <strong>Contacts
+      </strong>
+      <p>Get in Touch.
+      </p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <a href="#aboutpage"><img class="img-circle" src="images/dummy150150.png"></a>
+          <h4><strong>contact@winknmink.com</strong></h4>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <a href="#aboutpage"><img class="img-circle" src="images/dummy150150.png"></a>
+          <h4><strong>facebook.com/WINKnMINK</strong></h4>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <a href="#aboutpage" data-toggle="modal" data-target="#newpost"><img class="img-circle" src="images/dummy150150.png"></a>
+          <h4><strong>Drop a Message.</strong></h4>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
 	<script src="js/jquery.min.js"></script>
   	<script src="js/bootstrap.min.js"></script>
   	<script type="text/javascript" src="js/anim.js"></script>
+
+    <div class="modal fade" id="newpost" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;
+                  </button>
+                  <h4 class="modal-title">New Post
+                  </h4>
+              </div>
+              <div class="modal-body">
+                <form class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <label class="control-label col-sm-2">Title:
+                    </label>
+                    <div class="col-sm-10">
+                      <input class="form-control" id="titleofpost" placeholder="Enter Title">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2">Description:
+                    </label>
+                    <div class="col-sm-10">
+                      <textarea class="form-control" rows="5" id="postdescription" placeholder="Description">
+                      </textarea>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="control-label col-sm-2">Type:
+                    </label>
+
+                    <div class="radio col-sm-10">
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">Income
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio" checked="">Expense
+                      </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2">Amount:
+                    </label>
+                    <div class="col-sm-10">
+                      <input class="form-control" id="titleofpost" placeholder="Enter Amount in Rs">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <button type="submit" class="btn btn-default">Submit
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+        </div>
+      </div>
 </body>
 
 </html>
